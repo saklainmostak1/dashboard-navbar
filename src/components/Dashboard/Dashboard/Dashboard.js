@@ -73,10 +73,11 @@ const Dashboard = () => {
 
     return (
         <div>
-            <div className="max-w-[7680px] mx-auto">
-                <div className="bg-white py-2   mx-auto lg:ml-64 lg:px-20 -">
-                    <div className=" py-18 mx-auto px-3 lg:px-0 mt-3 flex justify-between">
-                        <div className=" top-7  md:left-64 bg-white  navIcon flex">
+            <div className="max-w-[7680px] mx-auto ">
+                <div className="bg-white py-2   mx-auto lg:ml-64 lg:px-20 ">
+                    {/* nav upper */}
+                    <div className=" py-18 mx-auto px-3 lg:px-0 mt-3 flex justify-between ">
+                        <div className=" top-7  md:left-64 bg-white  navIcon flex ">
                             <label htmlFor="my-drawer-2" className="block lg:hidden mt-4">
 
                                 {checked ? (
@@ -144,6 +145,7 @@ const Dashboard = () => {
                         <label for="my-drawer-2" className="drawer-overlay "></label>
 
                         <div className="bg-white w-64 lg:w-64 md:w-48">
+                                {/* width height of side nav */}
                             <div className=" my-3 mt-6">
                                 <div className="text-center">
                                     {/* <div className="ml-5">
